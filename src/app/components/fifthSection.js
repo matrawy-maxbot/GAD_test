@@ -10,7 +10,7 @@ const FifthSection = () => {
           <div key={index} id={`feedback-${index + 1}`} className={`feedback f${index + 1}`}>
             <Image
               className="arch"
-              src="/images/fifth_section/feedback_loading.svg"
+              src="./images/fifth_section/feedback_loading.svg"
               alt="loading feedback"
               width={148}
               height={150}
@@ -22,7 +22,7 @@ const FifthSection = () => {
                   {Array.from({ length: 5 }).map((_, starIndex) => (
                     <Image
                       key={starIndex}
-                      src="/images/fifth_section/star.svg"
+                      src="./images/fifth_section/star.svg"
                       alt="star"
                       width={18}
                       height={17.5}
@@ -39,7 +39,7 @@ const FifthSection = () => {
               </div>
               <div className="country">
                 <Image
-                  src="/images/fifth_section/egypt_flag.png"
+                  src="./images/fifth_section/egypt_flag.png"
                   alt="country flag"
                   width={25}
                   height={23}
@@ -59,7 +59,7 @@ const FifthSection = () => {
             <Image
               loading="lazy"
               className="feedback-line"
-              src="/images/fifth_section/feedback_line.svg"
+              src="./images/fifth_section/feedback_line.svg"
               alt="feedback line"
               width={567}
               height={750}
@@ -68,7 +68,7 @@ const FifthSection = () => {
           <Image
             loading="lazy"
             className="feedback-icon"
-            src="/images/fifth_section/feedback_icon.svg"
+            src="./images/fifth_section/feedback_icon.svg"
             alt="feedback icon"
             width={150}
             height={150}
@@ -79,7 +79,7 @@ const FifthSection = () => {
         <div className="user-img top-right">
           <Image
             loading="lazy"
-            src="/images/fifth_section/user_4.avif"
+            src="./images/fifth_section/user_4.avif"
             alt="GAD user image"
             width={130}
             height={130}
@@ -88,7 +88,7 @@ const FifthSection = () => {
         <div className="user-img left">
           <Image
             loading="lazy"
-            src="/images/fifth_section/user_5.avif"
+            src="./images/fifth_section/user_5.avif"
             alt="GAD user image"
             width={200}
             height={133}
@@ -97,7 +97,7 @@ const FifthSection = () => {
         <div className="user-img bottom-right">
           <Image
             loading="lazy"
-            src="/images/fifth_section/user_2.png"
+            src="./images/fifth_section/user_2.png"
             alt="GAD user image"
             width={100}
             height={100}

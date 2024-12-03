@@ -1,14 +1,14 @@
 import Image from 'next/image';
 
 const brands = [
-  { src: '/images/second_section/brand_1.png', alt: 'gad client brand', className: 'brand' },
-  { src: '/images/second_section/brand_2.png', alt: 'gad client brand', className: 'brand' },
-  { src: '/images/second_section/brand_3.png', alt: 'gad client brand', className: 'brand' },
-  { src: '/images/second_section/brand_4.png', alt: 'gad client brand', className: 'brand' },
-  { src: '/images/second_section/brand_5.png', alt: 'gad client brand', className: 'brand' },
-  { src: '/images/second_section/brand_6.png', alt: 'gad client brand', className: 'brand' },
-  { src: '/images/second_section/brand_7.png', alt: 'gad client brand', className: 'brand' },
-  { src: '/images/second_section/brand_8.png', alt: 'gad client brand', className: 'brand maxLogo' },
+  { src: './images/second_section/brand_1.png', alt: 'gad client brand', className: 'brand' },
+  { src: './images/second_section/brand_2.png', alt: 'gad client brand', className: 'brand' },
+  { src: './images/second_section/brand_3.png', alt: 'gad client brand', className: 'brand' },
+  { src: './images/second_section/brand_4.png', alt: 'gad client brand', className: 'brand' },
+  { src: './images/second_section/brand_5.png', alt: 'gad client brand', className: 'brand' },
+  { src: './images/second_section/brand_6.png', alt: 'gad client brand', className: 'brand' },
+  { src: './images/second_section/brand_7.png', alt: 'gad client brand', className: 'brand' },
+  { src: './images/second_section/brand_8.png', alt: 'gad client brand', className: 'brand maxLogo' },
 ];
 
 const SecondSection = () => {

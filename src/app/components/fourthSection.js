@@ -5,7 +5,7 @@ const DesignSection = () => {
     <div className="design-section">
         <Image
           className="design"
-          src="/images/fourth_section/background_design.png"
+          src="./images/fourth_section/background_design.png"
           alt="background design"
           width={1920}
           height={650}
@@ -21,7 +21,7 @@ const DesignSection = () => {
           <button>
             <span>Explore our designs</span>
             <Image
-              src="/images/fourth_section/explore_design_icon.svg"
+              src="./images/fourth_section/explore_design_icon.svg"
               alt="explore design"
               width={30}
               height={30}
@@ -31,7 +31,7 @@ const DesignSection = () => {
         <div className="section-images">
           <div className="center">
             <Image
-              src="/images/fourth_section/social_media_design.jpg"
+              src="./images/fourth_section/social_media_design.jpg"
               alt="graphic design"
               width={500}
               height={500}
@@ -41,7 +41,7 @@ const DesignSection = () => {
           </div>
           <div className="top-right">
             <Image
-              src="/images/fourth_section/graphic_design.jpg"
+              src="./images/fourth_section/graphic_design.jpg"
               alt="social media design"
               width={270}
               height={270}
@@ -51,7 +51,7 @@ const DesignSection = () => {
           </div>
           <div className="bottom-left">
             <Image
-              src="/images/fourth_section/ad_design.jpg"
+              src="./images/fourth_section/ad_design.jpg"
               alt="ad design"
               width={460}
               height={460}
@@ -62,7 +62,7 @@ const DesignSection = () => {
           <div className="design-icon">
             <div className="parent">
               <Image
-                src="/images/fourth_section/design_icon.svg"
+                src="./images/fourth_section/design_icon.svg"
                 alt="design icon"
                 width={300}
                 height={300}
@@ -81,7 +81,7 @@ const ProgrammingSection = () => {
     <div className="programming-section">
         <Image
           className="design"
-          src="/images/fourth_section/background_design.png"
+          src="./images/fourth_section/background_design.png"
           alt="background design"
           width={1920}
           height={650}
@@ -104,7 +104,7 @@ const ProgrammingSection = () => {
           <div className="desktop">
             <Image
               className="desktop-screen"
-              src="/images/fourth_section/desktop.png"
+              src="./images/fourth_section/desktop.png"
               alt="desktop screen"
               width={650}
               height={626}
@@ -113,7 +113,7 @@ const ProgrammingSection = () => {
             />
             <Image
               className="desktop-image"
-              src="/images/fourth_section/desktop_image.png"
+              src="./images/fourth_section/desktop_image.png"
               alt="desktop image"
               width={525}
               height={388}
@@ -124,7 +124,7 @@ const ProgrammingSection = () => {
           <div className="mobile">
             <Image
               className="mobile-screen"
-              src="/images/fourth_section/mobile.png"
+              src="./images/fourth_section/mobile.png"
               alt="mobile screen"
               width={300}
               height={460}
@@ -133,7 +133,7 @@ const ProgrammingSection = () => {
             />
             <Image
               className="mobile-image"
-              src="/images/fourth_section/mobile_image.png"
+              src="./images/fourth_section/mobile_image.png"
               alt="mobile image"
               width={275}
               height={444}
@@ -143,7 +143,7 @@ const ProgrammingSection = () => {
           </div>
           <Image
             className="right-kosa"
-            src="/images/fourth_section/kosa_1.png"
+            src="./images/fourth_section/kosa_1.png"
             alt="right kosa"
             width={136}
             height={262}
@@ -153,7 +153,7 @@ const ProgrammingSection = () => {
           />
           <Image
             className="left-kosa"
-            src="/images/fourth_section/kosa_2.png"
+            src="./images/fourth_section/kosa_2.png"
             alt="left kosa"
             width={300}
             height={363}
@@ -165,7 +165,7 @@ const ProgrammingSection = () => {
             <div className="programming-line-container">
               <Image
                 className="programming-line"
-                src="/images/fourth_section/programming_line.png"
+                src="./images/fourth_section/programming_line.png"
                 alt="programming line"
                 width={145}
                 height={475}
@@ -175,7 +175,7 @@ const ProgrammingSection = () => {
             </div>
             <Image
               className="programming-icon"
-              src="/images/fourth_section/programming_icon.png"
+              src="./images/fourth_section/programming_icon.png"
               alt="programming icon"
               width={190}
               height={187}
@@ -186,7 +186,7 @@ const ProgrammingSection = () => {
         </div>
         <div className="text-line">
           <Image
-            src="/images/fourth_section/text_line.png"
+            src="./images/fourth_section/text_line.png"
             alt="text line"
             width={327}
             height={258}
@@ -204,7 +204,7 @@ const PrintSection = () => {
     <div className="print-section">
         <Image
           className="design"
-          src="/images/fourth_section/background_design.png"
+          src="./images/fourth_section/background_design.png"
           alt="background design"
           width={1920}
           height={650}
@@ -223,7 +223,7 @@ const PrintSection = () => {
           <button>
             <span>Elevate Your Brand with Us</span>
             <Image
-              src="/images/fourth_section/marketting_button_icon.png"
+              src="./images/fourth_section/marketting_button_icon.png"
               alt="marketing design"
               width={50}
               height={51}
@@ -235,7 +235,7 @@ const PrintSection = () => {
           <div className="vest-container">
             <Image
               className="vest"
-              src="/images/fourth_section/vest.png"
+              src="./images/fourth_section/vest.png"
               alt="vest design"
               width={384}
               height={514}
@@ -246,7 +246,7 @@ const PrintSection = () => {
             <div className="vest-image-container">
               <Image
                 className="vest-image"
-                src="/images/fourth_section/vest_print.png"
+                src="./images/fourth_section/vest_print.png"
                 alt="printing design"
                 width={150}
                 height={93.5}
@@ -256,7 +256,7 @@ const PrintSection = () => {
             </div>
             <Image
               className="vest-paint-tool"
-              src="/images/fourth_section/paint_tool.svg"
+              src="./images/fourth_section/paint_tool.svg"
               alt="paint tool"
               width={119}
               height={150}
@@ -267,7 +267,7 @@ const PrintSection = () => {
           <div className="cup-container">
             <Image
               className="cup"
-              src="/images/fourth_section/cup.png"
+              src="./images/fourth_section/cup.png"
               alt="cup design"
               width={140}
               height={205}
@@ -277,7 +277,7 @@ const PrintSection = () => {
             />
             <Image
               className="cup-text"
-              src="/images/fourth_section/cup_text.png"
+              src="./images/fourth_section/cup_text.png"
               alt="printing cup design"
               width={100}
               height={75}
@@ -288,7 +288,7 @@ const PrintSection = () => {
           </div>
           <Image
             className="paint-tool"
-            src="/images/fourth_section/paint_tool.svg"
+            src="./images/fourth_section/paint_tool.svg"
             alt="paint tool"
             width={163}
             height={205}
@@ -297,7 +297,7 @@ const PrintSection = () => {
           />
           <Image
             className="notebook"
-            src="/images/fourth_section/notebook.png"
+            src="./images/fourth_section/notebook.png"
             alt="notebook"
             width={179}
             height={228}

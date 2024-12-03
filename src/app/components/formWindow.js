@@ -58,7 +58,7 @@ const FormWindow = () => {
                         <div className="thumbnail">
                             <Image
                                 loading="lazy"
-                                src={`/images/form/thumbnail.png`}
+                                src={`./images/form/thumbnail.png`}
                                 alt="GAD form window thumbnail"
                                 width={450}
                                 height={339}
@@ -128,7 +128,7 @@ const FormWindow = () => {
                                         </div>
                                         <Image
                                             loading="lazy"
-                                            src={`/images/form/design_icon.png`}
+                                            src={`./images/form/design_icon.png`}
                                             alt="GAD design icon"
                                             width={63.5}
                                             height={36}
@@ -145,7 +145,7 @@ const FormWindow = () => {
                                         </div>
                                         <Image
                                             loading="lazy"
-                                            src={`/images/form/programming_icon.png`}
+                                            src={`./images/form/programming_icon.png`}
                                             alt="GAD programming icon"
                                             width={44}
                                             height={36}
@@ -162,7 +162,7 @@ const FormWindow = () => {
                                         </div>
                                         <Image
                                             loading="lazy"
-                                            src={`/images/form/printing_icon.png`}
+                                            src={`./images/form/printing_icon.png`}
                                             alt="GAD Printing icon"
                                             width={50}
                                             height={36}

@@ -19,7 +19,7 @@ export default function Home() {
       <Head>
         <title>GAD</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preload" href="/images/first_section/lines.png&w=3840&q=75" as="image" />
+        <link rel="preload" href="./images/first_section/lines.png&w=3840&q=75" as="image" />
       </Head>
       <Nav />
       <FirstSection />

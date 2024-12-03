@@ -5,7 +5,7 @@ const Nav = () => {
     <nav>
       <div className="logo">
         <Image
-          src="/images/first_section/logo.png"
+          src="./images/first_section/logo.png"
           alt="GAD"
           width={101}
           height={48}

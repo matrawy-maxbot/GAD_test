@@ -106,7 +106,7 @@ const Faq = () => {
                                 <Image
                                     className='whatsapp-icon'
                                     loading="lazy"
-                                    src={`/images/last_section/whatsapp_icon.svg`}
+                                    src={`./images/last_section/whatsapp_icon.svg`}
                                     alt="whatsapp icon"
                                     width={16}
                                     height={16}

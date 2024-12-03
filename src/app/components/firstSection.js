@@ -46,30 +46,30 @@ const Lines = () => {
         lineId: "f-line",
         circleId: "fl",
         circles: [
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 1" },
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 2" },
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 3" },
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 4" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 1" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 2" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 3" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 4" },
         ],
       },
       {
         lineId: "s-line",
         circleId: "sl",
         circles: [
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 5" },
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 6" },
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 7" },
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 8" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 5" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 6" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 7" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 8" },
         ],
       },
       {
         lineId: "th-line",
         circleId: "thl",
         circles: [
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 9" },
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 10" },
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 11" },
-          { imgSrc: "/images/first_section/project_1.png", altText: "Project 12" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 9" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 10" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 11" },
+          { imgSrc: "./images/first_section/project_1.png", altText: "Project 12" },
         ],
       },
     ];
@@ -78,7 +78,7 @@ const Lines = () => {
       <div className="lines">
           <Image
           className="projects-lines"
-            src="/images/first_section/lines.png"
+            src="./images/first_section/lines.png"
             alt="gad projects line"
             width={1950} // Set the appropriate width
             height={504} // Set the appropriate height

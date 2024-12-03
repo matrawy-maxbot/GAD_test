@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
 const clients = [
-  { src: '/images/third_section/user_1.jpg', alt: 'GAD client image', className: 'top-left' },
-  { src: '/images/third_section/user_2.png', alt: 'GAD client image', className: 'bottom-left' },
-  { src: '/images/third_section/user_3.png', alt: 'GAD client image', className: 'center' },
-  { src: '/images/third_section/user_4.avif', alt: 'GAD client image', className: 'top-right' },
-  { src: '/images/third_section/user_5.avif', alt: 'GAD client image', className: 'bottom-right' },
+  { src: './images/third_section/user_1.jpg', alt: 'GAD client image', className: 'top-left' },
+  { src: './images/third_section/user_2.png', alt: 'GAD client image', className: 'bottom-left' },
+  { src: './images/third_section/user_3.png', alt: 'GAD client image', className: 'center' },
+  { src: './images/third_section/user_4.avif', alt: 'GAD client image', className: 'top-right' },
+  { src: './images/third_section/user_5.avif', alt: 'GAD client image', className: 'bottom-right' },
 ];
 
 const ThirdSection = () => {
@@ -74,7 +74,7 @@ const ThirdSection = () => {
             </div>
             <div className="text-line">
                 <Image
-                  src="/images/third_section/line.png"
+                  src="./images/third_section/line.png"
                   alt="text line"
                   width={722} // Adjust as per your design
                   height={310} // Adjust as per your design
@@ -88,7 +88,7 @@ const ThirdSection = () => {
           <span>Start your journey with us</span>
           <span className="arrow">
             <Image
-              src="/images/third_section/arrow.png"
+              src="./images/third_section/arrow.png"
               alt="start-arrow"
               width={12} // Adjust as per your design
               height={10.5} // Adjust as per your design

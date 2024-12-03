@@ -66,7 +66,7 @@ const SectionWindow = () => {
                             <div className={`image changing i${index + 1}`} key={index}>
                                 <Image
                                     loading="lazy"
-                                    src={`/images/design_gallery/i1.webp`}
+                                    src={`./images/design_gallery/i1.webp`}
                                     alt="Design Gallery Image"
                                     width={300}
                                     height={300}

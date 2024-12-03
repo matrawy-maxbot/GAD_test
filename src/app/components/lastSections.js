@@ -15,7 +15,7 @@ const LastSection = () => {
                                 <Image
                                     loading="lazy"
                                     className="call-line"
-                                    src="/images/last_section/call_line_small.svg"
+                                    src="./images/last_section/call_line_small.svg"
                                     alt="call line"
                                     width={50}
                                     height={50}
@@ -26,7 +26,7 @@ const LastSection = () => {
                                 <Image
                                     loading="lazy"
                                     className="call-icon"
-                                    src="/images/last_section/call_icon.svg"
+                                    src="./images/last_section/call_icon.svg"
                                     alt="call icon"
                                     width={36}
                                     height={36}
@@ -51,7 +51,7 @@ const LastSection = () => {
                                 <Image
                                     loading="lazy"
                                     className="whatsapp-line"
-                                    src="/images/last_section/whatsapp_line_small.svg"
+                                    src="./images/last_section/whatsapp_line_small.svg"
                                     alt="whatsapp line"
                                     width={50}
                                     height={50}
@@ -62,7 +62,7 @@ const LastSection = () => {
                                 <Image
                                     loading="lazy"
                                     className="whatsapp-icon"
-                                    src="/images/last_section/whatsapp_icon.svg"
+                                    src="./images/last_section/whatsapp_icon.svg"
                                     alt="whatsapp icon"
                                     width={50}
                                     height={50}
@@ -84,7 +84,7 @@ const LastSection = () => {
                             <Image
                                 loading="lazy"
                                 className="behance-icon"
-                                src="/images/last_section/behance_icon.svg"
+                                src="./images/last_section/behance_icon.svg"
                                 alt="behance icon"
                                 width={43}
                                 height={43}
@@ -98,7 +98,7 @@ const LastSection = () => {
                             <Image
                                 loading="lazy"
                                 className="facebook-icon"
-                                src="/images/last_section/facebook_icon.svg"
+                                src="./images/last_section/facebook_icon.svg"
                                 alt="facebook icon"
                                 width={43}
                                 height={43}
@@ -114,7 +114,7 @@ const LastSection = () => {
                 {/* Support Image */}
                 <Image
                     className="support-img"
-                    src="/images/last_section/support_design.png"
+                    src="./images/last_section/support_design.png"
                     alt="support img"
                     width={530}
                     height={353}
@@ -129,7 +129,7 @@ const LastSection = () => {
                         <Image
                             loading="lazy"
                             className="line"
-                            src="/images/last_section/behance_line.svg"
+                            src="./images/last_section/behance_line.svg"
                             alt="line"
                             width={289}
                             height={150}
@@ -140,7 +140,7 @@ const LastSection = () => {
                         <Image
                             loading="lazy"
                             className="behance-icon"
-                            src="/images/last_section/behance_icon.svg"
+                            src="./images/last_section/behance_icon.svg"
                             alt="behance icon"
                             width={43}
                             height={43}
@@ -149,7 +149,7 @@ const LastSection = () => {
                             Explore our projects in <span>Behance</span>
                             <span className="behance-text-line-container">
                                 <Image
-                                    src="/images/last_section/behance_text_line.svg"
+                                    src="./images/last_section/behance_text_line.svg"
                                     alt="behance text line"
                                     width={92}
                                     height={4.2}
@@ -165,7 +165,7 @@ const LastSection = () => {
                         <Image
                             loading="lazy"
                             className="line"
-                            src="/images/last_section/facebook_line.svg"
+                            src="./images/last_section/facebook_line.svg"
                             alt="line"
                             width={300}
                             height={45}
@@ -176,7 +176,7 @@ const LastSection = () => {
                         <Image
                             loading="lazy"
                             className="facebook-icon"
-                            src="/images/last_section/facebook_icon.svg"
+                            src="./images/last_section/facebook_icon.svg"
                             alt="facebook icon"
                             width={43}
                             height={43}
@@ -194,7 +194,7 @@ const LastSection = () => {
                         <Image
                             loading="lazy"
                             className="line"
-                            src="/images/last_section/call_line.svg"
+                            src="./images/last_section/call_line.svg"
                             alt="line"
                             width={184}
                             height={150}
@@ -205,7 +205,7 @@ const LastSection = () => {
                         <Image
                             loading="lazy"
                             className="call-icon"
-                            src="/images/last_section/call_icon.svg"
+                            src="./images/last_section/call_icon.svg"
                             alt="call icon"
                             width={36}
                             height={36}
@@ -224,7 +224,7 @@ const LastSection = () => {
                                     <Image
                                         loading="lazy"
                                         className="line"
-                                        src="/images/last_section/whatsapp_line.svg"
+                                        src="./images/last_section/whatsapp_line.svg"
                                         alt="line"
                                         width={373}
                                         height={301}
@@ -236,7 +236,7 @@ const LastSection = () => {
                                     <Image
                                         loading="lazy"
                                         className="whatsapp-icon"
-                                        src="/images/last_section/whatsapp_icon.svg"
+                                        src="./images/last_section/whatsapp_icon.svg"
                                         alt="whatsapp icon"
                                         width={50}
                                         height={50}
@@ -256,7 +256,7 @@ const LastSection = () => {
             <div className="footer">
                 <Image
                     className="footer-logo"
-                    src="/images/last_section/footer_logo.png"
+                    src="./images/last_section/footer_logo.png"
                     alt="gad logo"
                     width={116.2}
                     height={55}
@@ -264,7 +264,7 @@ const LastSection = () => {
                 <div className="footer-text">
                     <Image
                         className="copyright-icon"
-                        src="/images/last_section/copyright_icon.svg"
+                        src="./images/last_section/copyright_icon.svg"
                         alt="copyright icon"
                         width={25}
                         height={25}
@@ -277,7 +277,7 @@ const LastSection = () => {
                     <div className="footer-text-line-container">
                         <Image
                             className="footer-text-line"
-                            src="/images/last_section/footer_line.svg"
+                            src="./images/last_section/footer_line.svg"
                             alt="footer text line"
                             width={262}
                             height={9.5}
@@ -294,7 +294,7 @@ const LastSection = () => {
                         <div className="active"></div>
                         <div className="light-icon">
                             <Image
-                                src="/images/last_section/light_icon.svg"
+                                src="./images/last_section/light_icon.svg"
                                 alt="light icon"
                                 width={30}
                                 height={30}
@@ -302,7 +302,7 @@ const LastSection = () => {
                         </div>
                         <div className="dark-icon">
                             <Image
-                                src="/images/last_section/dark_icon.svg"
+                                src="./images/last_section/dark_icon.svg"
                                 alt="dark icon"
                                 width={30}
                                 height={30}
