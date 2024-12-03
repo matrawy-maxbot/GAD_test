@@ -2,7 +2,7 @@
 const nextConfig = {
     experimental: {
         optimizeCss: true
-    }
+    },
     basePath: '/GAD-services',
     assetPrefix: '/GAD-services',
 };
