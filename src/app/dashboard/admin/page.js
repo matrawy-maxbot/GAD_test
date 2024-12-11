@@ -29,29 +29,30 @@ export default function Dashboard() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   useEffect(() => {
-    const validateToken = async () => {
-      const api = new ApiClient("http://localhost:4000");
-      const token = sessionStorage.getItem("accessToken");
-      if (!token) return failedLogin();
-  
-      try {
-        const checkToken = api.checkToken();
-        if (!checkToken) return failedLogin();
-  
-        const loginToken = await api.login(checkToken);
-        if (!loginToken || loginToken.data?.user?.role !== "admin") {
-          console.log("Invalid login token:", loginToken);
-          return failedLogin();
+    if (typeof window !== 'undefined') {
+      const validateToken = async () => {
+        const api = new ApiClient("http://localhost:4000");
+        const token = sessionStorage.getItem("accessToken");
+        if (!token) return failedLogin();
+    
+        try {
+          const checkToken = api.checkToken();
+          if (!checkToken) return failedLogin();
+    
+          const loginToken = await api.login(checkToken);
+          if (!loginToken || loginToken.data?.user?.role !== "admin") {
+            console.log("Invalid login token:", loginToken);
+            return failedLogin();
+          }
+    
+          setIsAuthenticated(true);
+        } catch (error) {
+          console.error("Authentication failed:", error);
+          failedLogin();
         }
-  
-        setIsAuthenticated(true);
-      } catch (error) {
-        console.error("Authentication failed:", error);
-        failedLogin();
-      }
-    };
-  
-    validateToken();
+      };
+      validateToken();
+    }
   }, []);
 
   if (!isAuthenticated) {
