@@ -32,6 +32,7 @@ export default function Dashboard() {
     if (typeof window !== 'undefined') {
       const validateToken = async () => {
         const api = new ApiClient("http://localhost:4000");
+        if(!sessionStorage) return failedLogin();
         const token = sessionStorage.getItem("accessToken");
         if (!token) return failedLogin();
     
