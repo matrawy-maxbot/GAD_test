@@ -2,7 +2,7 @@
 import dynamic from 'next/dynamic';
 import Head from 'next/head';
 
-const DynamicDashboard = dynamic(() => import('./DashboardContent'), {
+const DynamicDashboard = dynamic(() => import('./pageContent'), {
   ssr: false,
 });
 
